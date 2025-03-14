@@ -11,20 +11,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <!-- Подключение внешнего файла стилей -->
+    <title>Основа кринжа</title>
     <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
 
-<!-- Контейнер для размещения содержимого страницы -->
 <div class="container">
-    <!-- Заголовок страницы -->
-    <h1 class="title">Добро пожаловать в тест</h1>
+    <h1 class="title">Привет, полупокер!</h1>
     
-    <!-- Кнопка для перехода на страницу теста -->
     <a href="test.php">
-        <button class="start-button">Пройти тест</button>
+        <button class="start-button">Ну что, кринжанем?</button>
     </a>
 </div>
 
