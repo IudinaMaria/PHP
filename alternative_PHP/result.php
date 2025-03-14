@@ -14,22 +14,22 @@ $score = isset($_GET["score"]) ? (float)$_GET["score"] : 0;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Результаты теста</title>
+    <title>Посмотрим, как ты тут навалил кринжа</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div class="result-box">
-    <h2>Ваш результат в тесте</h2>
+    <h2>Твой кринж-результат</h2>
     <p class="result-text">
-        Количество правильных ответов: <b><?= $correctCount ?></b>
+        Не все так плохо, тут есть надежда <b><?= $correctCount ?></b>
     </p>
     <p class="result-text">
-        Процент набранных баллов: <b><?= $score ?>%</b>
+        Вот на столько ты далек от 30 <b><?= $score ?>%</b>
     </p>
-    <a href="test.php" class="button">Пройти тест заново</a>
-    <a href="dashboard.php" class="button">Посмотреть таблицу результатов</a>
-    <a href="index.php" class="button">Вернуться на главную</a>
+    <a href="test.php" class="button">Кринжануть еще разок</a>
+    <a href="dashboard.php" class="button">Список тех, кто уже кринжанул</a>
+    <a href="index.php" class="button">Вернуться к истокам</a>
 </div>
 
 </body>
