@@ -1,6 +1,6 @@
 <?php
 
-$dataFile = "data.json"; // Путь к файлу с данными
+$dataFile = "data.json";
 
 if (!file_exists($dataFile)) {
     echo "Файл данных не найден.";
@@ -8,7 +8,7 @@ if (!file_exists($dataFile)) {
 }
 
 $data = json_decode(file_get_contents($dataFile), true);
-$questions = $data["questions"] ?? []; // Используем оператор ?? для безопасного получения массива вопросов
+$questions = $data["questions"] ?? [];
 
 if (empty($questions)) {
     echo "Нет вопросов для теста.";
