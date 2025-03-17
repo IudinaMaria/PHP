@@ -125,7 +125,7 @@ require_once 'transactions.php';
 В main.php был добавлен вывод данных в таблице, которая берет все необходимое из transactions.php, с использованием нескольких функций из файла functions.php
 
 Результат:
-![alt text](image/Screenshot_1.png)
+![alt text](images/Screenshot_1.png)
 
 #### Задание 1.4. Реализация функций
 
@@ -365,7 +365,7 @@ if ($files === false) {
 </html>
 ```
 Результат:
-![alt text](image/Screenshot_2.png)
+![alt text](images/Screenshot_2.png)
 
 ## Документация кода
 
