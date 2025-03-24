@@ -1,0 +1,6 @@
+{"product_name": "Стул", "category": "Мебель", "materials": "Дерево", "description": "Удобный стул для офиса", "tags": ["дерево", "комфорт"], "steps": ["Шаг 1", "Шаг 2"]}
+{"product_name": "Стол", "category": "Мебель", "materials": "Дерево", "description": "Стол для кухни", "tags": ["дерево", "кухня"], "steps": ["Шаг 1", "Шаг 2"]}
+{"product_name": "Стул", "category": "Мебель", "materials": "Дерево", "description": "Удобный стул для офиса", "tags": ["дерево", "комфорт"], "steps": ["Шаг 1", "Шаг 2"]}
+{"product_name": "Стол", "category": "Мебель", "materials": "Дерево", "description": "Стол для кухни", "tags": ["дерево", "кухня"], "steps": ["Шаг 1", "Шаг 2"]}
+{"product_name": "Стул", "category": "Мебель", "materials": "Дерево", "description": "Удобный стул для офиса", "tags": ["дерево", "комфорт"], "steps": ["Шаг 1", "Шаг 2"]}
+{"product_name": "Стол", "category": "Мебель", "materials": "Дерево", "description": "Стол для кухни", "tags": ["дерево", "кухня"], "steps": ["Шаг 1", "Шаг 2"]}
