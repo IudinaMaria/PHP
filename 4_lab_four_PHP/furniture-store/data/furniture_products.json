@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Modern Sofa",
+        "description": "A stylish and comfortable modern sofa, perfect for any living room. Made from high-quality fabric and solid wood frame, ensuring durability and elegance.",
+        "price": "2000",
+        "categories": [
+            "furniture",
+            "living room"
+        ],
+        "image": "./assets/image/Modern_Sofa.webp"
+    },
+    {
+        "name": "Wooden Dining Table",
+        "description": "A solid oak dining table with a natural wood finish. Seats up to six people, making it ideal for family gatherings and dinner parties.",
+        "price": "1500",
+        "categories": [
+            "furniture",
+            "dining room"
+        ],
+        "image": "./assets/image/Wooden_Dining_Table.jpg"
+    },
+    {
+        "name": "Ergonomic Office Chair",
+        "description": "Designed for maximum comfort and support, this ergonomic office chair features adjustable armrests, lumbar support, and breathable mesh backrest.",
+        "price": "1000",
+        "categories": [
+            "furniture",
+            "office"
+        ],
+        "image": "./assets/image/Ergonomic_Office_Chair.jpg"
+    }
+]
