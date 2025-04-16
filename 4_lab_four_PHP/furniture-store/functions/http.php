@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Перечисление с кодами статусов HTTP.
- * Используется для определения стандартных HTTP-статусов, которые возвращаются в ответах сервера.
- */
 enum HTTP_STATUS_CODES: int
 {
     case OK = 200;
@@ -20,10 +16,6 @@ enum HTTP_STATUS_CODES: int
     case INTERNAL_SERVER_ERROR = 500;
 }
 
-/**
- * Массив, который сопоставляет коды статусов HTTP с их текстовыми значениями.
- * Используется для формирования полного ответа при отправке заголовка HTTP.
- */
 $httpStatusMessages = [
     HTTP_STATUS_CODES::OK->value => "OK",
     HTTP_STATUS_CODES::CREATED->value => "Created",
@@ -41,10 +33,6 @@ $httpStatusMessages = [
 
 /**
  * Отправляет HTTP-ответ с указанным кодом ошибки.
- *
- * Эта функция устанавливает HTTP-заголовок с заданным кодом ошибки и соответствующим текстом
- * из глобального массива $httpStatusMessages. После этого выполнение скрипта завершается.
- *
  * @param HTTP_STATUS_CODES $statusCode Код статуса HTTP для отправки.
  *
  * @global array $httpStatusMessages Ассоциативный массив, который сопоставляет коды статусов с их текстовыми значениями.
@@ -71,10 +59,8 @@ function sendHttpStatus(HTTP_STATUS_CODES $statusCode)
  */
 function route(string $location, HTTP_STATUS_CODES $statusCode = HTTP_STATUS_CODES::OK)
 {
-    // Отправляем HTTP статус
     sendHttpStatus($statusCode);
 
-    // Перенаправляем на указанную страницу
     header("Location: $location");
 
     return;

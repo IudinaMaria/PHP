@@ -10,13 +10,11 @@
  */
 function getError($errors, $key)
 {
-    // Проверяем, существует ли ошибка для данного ключа
     if (isset($errors[$key])) {
         // Если ошибка найдена, возвращаем её с HTML-форматированием
         return '<p class="text-red-500">* ' . $errors[$key] . '</p>';
     }
 
-    // Если ошибки нет, возвращаем пустую строку
     return '';
 }
 
@@ -29,6 +27,5 @@ function getError($errors, $key)
  */
 function sanitize(string $data)
 {
-    // Применяем функцию trim() для удаления пробелов по краям, strip_tags() для удаления HTML-тегов и htmlentities() для преобразования специальных символов в HTML-сущности.
     return htmlentities(strip_tags(trim($data)));
 }

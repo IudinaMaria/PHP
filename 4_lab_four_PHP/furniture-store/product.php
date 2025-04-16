@@ -1,18 +1,14 @@
 <?php
 
-/**
- * Константа с названием проекта
- */
 define('PROJECT_NAME', 'Furniture Store');
 
-// Подключаем файл с товарами
 require_once './data/furniture_products.php';
 
 /**
  * Получение ID товара из GET-параметров и преобразование в целое число
  * @var int $id Идентификатор товара
  */
-$id = intval($_GET['id']) - 1;  // Уменьшаем на 1 для соответствия индексации массива
+$id = intval($_GET['id']) - 1;  
 
 /**
  * Получение информации о товаре по ID
@@ -20,13 +16,11 @@ $id = intval($_GET['id']) - 1;  // Уменьшаем на 1 для соотве
  */
 $product = $products[$id] ?? null;
 
-// Если товар не найден, отправляем ошибку 404
 if (!$product) {
     header('HTTP/1.1 404 Not Found');
     exit;
 }
 
-// Подключаем заголовок страницы
 require_once './components/header.php';
 ?>
 
@@ -46,6 +40,5 @@ require_once './components/header.php';
 </article>
 
 <?php
-// Подключаем футер
 require_once './components/footer.php';
 ?>

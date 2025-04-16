@@ -1,11 +1,7 @@
 <?php
 
-/**
- * Константа с названием проекта
- */
 define('PROJECT_NAME', 'Furniture Store');
 
-// Подключаем файл с товарами
 require_once './data/furniture_products.php';
 
 /**
@@ -20,9 +16,6 @@ $query = isset($_GET['query']) ? strtolower(trim($_GET['query'])) : '';
  */
 $results = [];
 
-/**
- * Поиск товаров по названию и описанию
- */
 if ($query) {
     foreach ($products as $id => $product) {
         if (
@@ -40,7 +33,6 @@ if ($query) {
     }
 }
 
-// Подключаем заголовок страницы
 require_once './components/header.php';
 ?>
 
