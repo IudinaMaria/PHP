@@ -215,9 +215,9 @@
 ![Скриншот интерфейса](img_for_report/Screenshot_6.png)<br>
 - Поиск по приложению:
 ![Скриншот интерфейса](img_for_report/Screenshot_7.png)<br>
-- Вход в систему:
+- Вход в систему:<br>
 ![Скриншот интерфейса](img_for_report/Screenshot_8.png)<br>
-- Регистрация:
+- Регистрация:<br>
 ![Скриншот интерфейса](img_for_report/Screenshot_9.png)<br>
 - Ограничение прав для пользователя:
 ![Скриншот интерфейса](img_for_report/Screenshot_11.png)<br>
@@ -231,4 +231,4 @@
 
 - [w3schools](https://www.w3schools.com/php/)
 
-- [ChatGPT](https://chatgpt.com/))
+- [ChatGPT](https://chatgpt.com/)
