@@ -1,0 +1,160 @@
+/**
+ * Основные стили страницы
+ * 
+ * @property string font-family - Определяет шрифт текста.
+ * @property string background-color - Цвет фона.
+ * @property string padding - Внутренний отступ.
+ * @property string max-width - Ограничение ширины контента.
+ * @property string margin - Автоматическое центрирование.
+ */
+ body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #e3eaf1;
+    padding: 20px;
+    max-width: 850px;
+    margin: auto;
+}
+
+/**
+ * Заголовки
+ * 
+ * @property string text-align - Центрирование текста.
+ * @property string color - Цвет текста.
+ */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/**
+ * Блоки с контентом
+ * 
+ * @property string background - Белый фон.
+ * @property string padding - Внутренние отступы.
+ * @property string border-radius - Скругленные углы.
+ * @property string box-shadow - Тень вокруг блока.
+ */
+form, .result-box, table {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Форма
+ * 
+ * @property string max-width - Ограничение ширины.
+ * @property string margin - Центрирование.
+ */
+form {
+    max-width: 650px;
+    margin: auto;
+}
+
+/**
+ * Текстовые элементы
+ * 
+ * @property string font-size - Размер текста.
+ * @property string font-weight - Жирность шрифта.
+ * @property string margin-bottom - Отступ снизу.
+ */
+label, p {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #34495e;
+}
+
+/**
+ * Поле ввода текста
+ */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+}
+
+/**
+ * Радиокнопки и чекбоксы
+ */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/**
+ * Кнопки
+ */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/**
+ * Блок с результатами
+ */
+.result-box {
+    text-align: center;
+}
+
+.result-text {
+    font-size: 19px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/**
+ * Таблица
+ */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+/**
+ * Ссылки-кнопки
+ */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #e67e22;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #d35400;
+}
